@@ -242,3 +242,224 @@ body {
 .x-icon {
   fill: red;
 }
+
+/*Estilos de la pagina tarea2*/
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(145, 127, 105, 0.247);
+    font-family:  "Tektur", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+    
+
+}   
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(95, 134, 106, 0.1);
+}
+header{
+    text-align: center;
+    color: rgb(48, 29, 48);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(./imagenes/coding-programming-developing-typing-script-600nw-2258898245.webp);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header figure img {
+    border-radius: 50%;
+    border: 5px solid #3a3279;
+    box-shadow: 0px 0px 10px;
+    
+
+}
+header h1 {
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+header h2 {
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+.container{
+    background-color:#bb5ebb;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #0ebaba;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    
+
+}
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color:rgb(0, 0, 0)
+}
+section{
+    background-color: rgba(150, 164, 182, 0.761);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(10, 10, 10, 0.5);
+}
+
+section hr{
+    border:0;
+    height: 2px;
+    background:#000000;
+    margin: 10px 0;
+}
+
+section hr{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 5px 0;
+}
+i{
+    color:#000000;
+    margin-right: 8px;
+}
+address p {
+    margin:5px;
+}
+address a{
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+}
+article{
+    margin-bottom: 15px;
+}
+/*Estilos tarea3*/
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+header {
+
+  background-color: #333;
+
+  color: white;
+
+  padding: 10px 0;
+
+  text-align: center;
+
+}
+
+header .logo img {
+
+  max-width: 100px;
+
+}
+
+nav ul {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+nav ul li {
+
+  display: inline;
+
+  margin-right: 10px;
+
+}
+
+nav ul li a {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+.banner {
+
+  background-color: #f4f4f4;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+.contenido {
+
+  padding: 20px;
+
+}
+.contenido article {
+
+  margin-bottom: 20px;
+
+}
+
+.contenido article img {
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+
+footer {
+
+  background-color: #333;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 10px 0;
+
+}
+
+.redes-sociales img {
+
+  width: 30px;
+
+  margin: 0 10px;
+
+}
