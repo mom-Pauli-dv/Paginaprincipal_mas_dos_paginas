@@ -14,11 +14,10 @@ body {
   padding: 20px;
 }
 
-/* Estilos para la Portada (index_principal.html) */
 .portada {
   background-image: url('./imagenes/modelos-paginaPrincipal.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top; /* Imagen fija arriba */
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -27,6 +26,13 @@ body {
   color: white;
 }
 
+.fondo-semitransparente {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
 .cover-container {
   max-width: 800px;
   padding: 30px;
@@ -47,7 +53,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Barra de Navegación Común */
+
 .nav-masthead {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 15px 20px;
@@ -68,7 +74,7 @@ body {
 }
 
 .nav-masthead .nav-link.active {
-  color: #17a2b8; /* Un color акценто para la página activa */
+  color: #17a2b8; 
 }
 
 .float-md-end {
